@@ -1,0 +1,124 @@
+/* Reset default margins and padding */
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Center the form on the page */
+  #quizForm {
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Style the quiz name input field */
+  #quizName input[type="text"]{
+    justify-content: center;
+    width: 287px;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style the questions container */
+  #questionsContainer {
+    width: 300px;
+    align-items: center;
+  }
+
+  /* Style the question input field */
+  .question input[type="text"] {
+    justify-content: center;
+    width: 287px;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  /* Style the choices input field */
+  .question input[name^="choices"] {
+    justify-content: center;
+    width: 287px;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style the answer input field */
+  .question input[name^="answer"] {
+    justify-content: center;
+    width: 287px;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+    /* Style the answer input field */
+    .question input[name^="minutes"] {
+      justify-content: center;
+      width: 287px;
+      height: 15px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+  #buttons{
+    justify-content: center;
+  }
+  
+  /* Style the "Add Question" button */
+  #addQuestionBtn {
+    width: 147px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Change button color on hover */
+  #addQuestionBtn:hover {
+    background-color: grey;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    width: 147px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Change button color on hover */
+  input[type="submit"]:hover {
+    background-color: grey;
+  }
+  

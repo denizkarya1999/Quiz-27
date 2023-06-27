@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create - Self Quiz by Developer 27</title>
+  <link rel="icon" href="quizIcon.ico" type="x-icon">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+
+  <form id="quizForm">
+
+    <div id="questionsContainer">
+      <h3>Create your own quiz</h3>
+      <label for="quizName">Quiz Name:</label>
+      <input type="text" id="quizName" name="quizName" required><br><br>
+
+      <label for="minutes1">Minutes Given:</label>
+      <input type="text" id="minutes1" name="minutes1" required><br><br>
+
+      <div class="question">  
+        <label for="question1">Question-1:</label>
+        <input type="text" id="question1" name="question1" required><br><br>
+
+        <label for="choices1">Choices (comma-separated)-1:</label>
+        <input type="text" id="choices1" name="choices1" required><br><br>
+
+        <label for="answer1">Answer-1:</label>
+        <input type="text" id="answer1" name="answer1" required><br><br>
+      </div>
+    </div>
+
+    <div id="buttons"> 
+        <button type="button" id="addQuestionBtn">Add Question</button>
+        <input type="submit" value="Create Quiz">
+    </div>
+  </form>
+  <script src="script1.js"></script>
+</body>
+</html>
